@@ -39,3 +39,9 @@ fun getEmployeeInfo(fullName: String, age: Int, position: String, familyStatus: 
     println("Должность: $position")
     println("Семейное положение: $familyStatus")
 }
+
+// task_15
+
+val showArray = { arr: Array<String> ->
+    for (i in arr) println(i)
+}
