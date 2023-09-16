@@ -9,3 +9,33 @@ fun isLeapYear(year: Int): Boolean {
 fun countEmployees(vararg names: String): Int {
     return names.size
 }
+
+// task_14
+
+fun getEmployeeInfo(fullName: String, position: String) {
+    println("ФИО: $fullName")
+    println("Возраст: неизвестен")
+    println("Должность: $position")
+    println("Семейное положение: неизвестно")
+}
+
+fun getEmployeeInfo(fullName: String, age: Int, position: String) {
+    println("ФИО: $fullName")
+    println("Возраст: $age")
+    println("Должность: $position")
+    println("Семейное положение: неизвестно")
+}
+
+fun getEmployeeInfo(fullName: String, familyStatus: String, position: String) {
+    println("ФИО: $fullName")
+    println("Возраст: неизвестен")
+    println("Должность: $position")
+    println("Семейное положение: $familyStatus")
+}
+
+fun getEmployeeInfo(fullName: String, age: Int, position: String, familyStatus: String) {
+    println("ФИО: $fullName")
+    println("Возраст: $age")
+    println("Должность: $position")
+    println("Семейное положение: $familyStatus")
+}
