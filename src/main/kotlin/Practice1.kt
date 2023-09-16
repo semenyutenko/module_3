@@ -1,3 +1,5 @@
+import kotlin.math.sqrt
+
 // task_12
 
 fun isLeapYear(year: Int): Boolean {
@@ -45,3 +47,7 @@ fun getEmployeeInfo(fullName: String, age: Int, position: String, familyStatus: 
 val showArray = { arr: Array<String> ->
     for (i in arr) println(i)
 }
+
+// task_16
+
+fun Double.getSquareRoot() = sqrt(this)
